@@ -7,8 +7,7 @@ import java.nio.file.Paths;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class PlaywrightTraditional {
+public class PlaywrightTraditionalTests {
 
     static Playwright playwright;
     static Browser browser;
