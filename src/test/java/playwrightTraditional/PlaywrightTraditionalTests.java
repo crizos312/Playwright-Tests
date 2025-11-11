@@ -112,8 +112,6 @@ public class PlaywrightTraditionalTests {
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Remove product JBL Quantum")).click();
         assertThat(page.locator("#headerDesktopView")).containsText("Cart 0 items");
         browser.close();
-
-        //
     }
 
 }
